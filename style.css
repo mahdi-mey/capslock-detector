@@ -33,3 +33,8 @@ body{
     transform: scale(0);
     animation: show-warning 250ms forwards;
 }
+@keyframes show-warning {
+    to{
+        transform: scale(1);
+    }
+}
