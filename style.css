@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(100, 175, 100);
+}
+.container{
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#capslockDetector{
+    padding: 0.4rem;
+    font-size: 1.2rem;
+}
+.warning{
+    color: red;
+    background-color: rgba(223, 130, 130, 0.199);
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    display: none;
+    transform: scale(0);
+    animation: show-warning 250ms forwards;
+}
