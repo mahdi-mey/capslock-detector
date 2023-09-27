@@ -11,5 +11,15 @@ inputElement.addEventListener('keyup', (e) => {
     else{
         capsWarning.style.display = 'none'
     }
-    
+      
+    if(e.location === 3){
+
+        if(isNumLockActive === false){
+            numWarning.style.display = 'block'
+        }
+
+        else{
+            numWarning.style.display = 'none'
+        }
+    }
 })
